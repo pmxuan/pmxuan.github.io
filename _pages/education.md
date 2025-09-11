@@ -11,6 +11,7 @@ redirect_from:
 
 # Education
 - **Master of Science in Computer Science at Japan Advanced Institute of Science and Technology**, *2025-2027*
+  - **Major**: Information Science
 - **Bachelor of Science at University of Science**, *2020-2024*
   - **Major**: Data Science
   - **GPA**: 8.22/10

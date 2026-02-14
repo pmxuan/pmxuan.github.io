@@ -1,4 +1,5 @@
 ---
+layout: centered
 permalink: /
 # title: "Hey there! 👋"
 author_profile: true

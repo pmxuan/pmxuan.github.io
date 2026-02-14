@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Skills"
 permalink: /skill/
 author_profile: false
 redirect_from:
@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-
-# Skills
 - **Languages**: English, Vietnamese
 - **Programming Languages**: Python, SQL, HTML, CSS, JavaScript
 - **Frameworks and Libraries**:  

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Education"
 permalink: /education/
 author_profile: false
 redirect_from:
@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-# Education
 - **Master of Science in Computer Science at Japan Advanced Institute of Science and Technology**, *2025 - Present*
   - **Major**: Information Science
 - **Bachelor of Science at University of Science**, *2020-2024*

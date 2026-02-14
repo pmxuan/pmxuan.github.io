@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Professional Experience"
 permalink: /experience/
 author_profile: false
 redirect_from:
@@ -8,9 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-# Professional Experience
-
 
 <h2 style="color:#1f77b4;">Japan Advanced Institute of Science and Technology - <em>Laboratory Researcher - Full-time</em> (10/2025 - Present)</h2>
   - Conducting research on **Deepfake Speech Detection**, with a focus on developing robust and generalizable detection models against synthetic and manipulated audio.

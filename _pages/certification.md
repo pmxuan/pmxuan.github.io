@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Certifications and Achievements"
 permalink: /certification/
 author_profile: false
 redirect_from:
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-# Certifications and Achievements
 
 ### Certifications:
 - **Become a Data Analyst** (Coursera – Jul 2023)

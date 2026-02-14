@@ -12,7 +12,7 @@ excerpt: |
     - **Technologies:** Python, PyTorch, Scikit-learn, Numpy, Pandas, Folium, Matplotlib
 collection: portfolio
 ---
-## An Interpretable Model for Spatio-Temporal Traffic Forecasting
+# An Interpretable Model for Spatio-Temporal Traffic Forecasting
 ### Abstract:
 Traffic forecasting is the process of estimating traffic flow on roads and intersections within a transportation system. The goal of this prediction is to provide detailed and accurate information about traffic conditions, helping urban management and drivers make informed decisions. In the past decade, traffic forecasting methods have rapidly evolved, especially with the expansion of artificial intelligence. Additionally, Explainable Artificial Intelligence (XAI) aims to address the challenge of making machine learning models more transparent and interpretable. In the context of traffic forecasting, model transparency is crucial for enhancing trust among the community and users. XAI in traffic prediction enables interpretability of the modeling and forecasting processes, helping users understand why a specific prediction is made.
 
@@ -20,17 +20,17 @@ Recognizing this issue, this thesis proposes a Beats-ODE model for traffic forec
 
 Furthermore, we conducted experiments to evaluate our model’s accuracy against state-of-the-art methods on two datasets: METR-LA and PEMS-BAY. The results demonstrate that our proposed approach outperforms existing baseline methods.
 
-### Forecasting Architecture
+## Forecasting Architecture
 <img src='/images/BeatsODE.png'>
 
-### XAI Architecture
+## XAI Architecture
 <img src='/images/Dynamask.png'>
 
-### Dataset:
+## Dataset:
 - I use the METR-LA and PEMS-BAY datasets, which can be downloaded and accessed from [Google Drive](https://drive.google.com/drive/folders/10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX).
 - I follow the same data preprocessing steps as described in the study by the authors of the DCRNN paper [DCRNN](https://arxiv.org/pdf/1707.01926.pdf).
 
-### Results:
+## Results:
 - Traffic Forecasting
 <img src="/images/METR.jpg"/>
 <img src="/images/PEMS.jpg"/>

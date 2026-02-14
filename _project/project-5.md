@@ -11,14 +11,14 @@ collection: portfolio
 
 <!-- ## **Description**  
 In many applications, chatbot performance heavily depends on the richness and accuracy of its training data. This project aims to **expand and refine** the dataset by leveraging **Bing Search** to fetch relevant text and images based on predefined **category-specific keywords** (e.g., landmark names, operating hours, historical significance, etc.).   -->
-## **Project Context**
+# **Project Context**
 - **Company Project**: This project is developed as part of **AIAIVN**. It focuses on building an efficient data enrichment pipeline for chatbot training using various data sources.
 
-## **Architecture**
+# **Architecture**
 <img src='/images/pipelineDN.png'>
 
 
-## **Description** 
+# **Description** 
 
 The data enrichment process follows these key steps:  
 
@@ -46,7 +46,7 @@ The data enrichment process follows these key steps:
 
 By automating the data enrichment process, this pipeline ensures **scalability, consistency, and efficiency** in maintaining high-quality datasets for chatbot training. The enriched data enables chatbots to deliver **more informative responses**, improving user engagement and satisfaction.  
 
-## **Responsibilities**  
+# **Responsibilities**  
 
 <!-- **Crawling Data**  
    - Collect data from various sources, including existing datasets and Bing Search API.  
@@ -70,7 +70,7 @@ By automating the data enrichment process, this pipeline ensures **scalability, 
 - Implemented a data enrichment pipeline and a basic UI for data verification.
 
 
-## **Technology Stack** 
+# **Technology Stack** 
 <!-- - **Python** – Core language for data processing and API integration.  
 - **Bing Search API** – Source for retrieving supplementary text and images.  
 - **MongoDB** – Database for storing enriched data.  
@@ -81,7 +81,7 @@ By automating the data enrichment process, this pipeline ensures **scalability, 
 - Python, Bing Search API, MongoDB, Airflow, Docker, ReactJs, Azure (Container App, Cloud Storage, AI Search, Azure OpenAI)
 
  
-## **Tool Management and Team Size**:
+# **Tool Management and Team Size**:
 - **Tool Management**: Jira, Github
 - **Team Size**: 4
 

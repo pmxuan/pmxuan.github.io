@@ -2,3 +2,9 @@ _teaching
 _publications
 _talks
 talkmap
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock

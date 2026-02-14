@@ -39,14 +39,11 @@ I am open to collaborations on exciting projects involving **data science, AI re
 
 When I'm not coding or analyzing data, you’ll find me exploring emerging technologies, reading AI research papers, or sharing knowledge with the tech community. -->
 
+<!-- Centered GIF Animation -->
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 2em 0;">
+  <img src="https://user-images.githubusercontent.com/74038190/216649421-9e9387cc-b2d3-4375-97e2-f4c43373d3ae.gif" alt="dev" style="max-width: 60%; height: auto; border: none;" />
+</div>
 
-
-<table style="width:100%; border: none;">
-  <tr>
-    <td style="border: none;">
-      <p align="center"> 
-        <img src="https://github.com/CodexploreRepo/CodexploreRepo/blob/master/.github/assets/coding.gif?raw=true" alt="dev" width="100%"/>
-      </p>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 2em 0;">
+  <img src="https://user-images.githubusercontent.com/74038190/216654116-d0e8d227-7977-4edc-8d36-63461bda9503.gif" alt="dev" style="max-width: 60%; height: auto; border: none;" />
+</div>

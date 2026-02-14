@@ -19,7 +19,5 @@ redirect_from:
 - **Database & Tools**:  
   - **Databases**: MongoDB, Microsoft SQL Server, PostgreSQL, SQLite  
   - **Tools**: Microsoft Office, Power BI, Tableau  
-- **Cloud service**
-  - **Azure**:  Container Apps, AI Search, NAT gateways, Azure OpenAI, Azure Cosmos DB, Container Apps Environment, Storage Account.
-  - **Google Cloud Platform**: Cloud Storage, Cloud SQL.
+- **Cloud service** Azure, Google Cloud Platform (GCP)
 

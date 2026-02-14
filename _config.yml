@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "vi-VN"
 site_theme               : "default"
-title                    : "General Information"
+title                    : "Generation Information"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"

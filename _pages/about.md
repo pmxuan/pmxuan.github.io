@@ -13,6 +13,13 @@ I graduated from the **University of Science, VNU-HCM (HCMUS)** with a major in 
 
 Currently, I am pursuing a **Master’s degree** at the **Japan Advanced Institute of Science and Technology (JAIST)** under the supervision of Prof. [Masashi Unoki](https://scholar.google.co.jp/citations?user=nXje6ywAAAAJ&hl=ja).
 
+# 🌱 Professional Experiences
+
+Laboratory Researcher at [JAIST](https://www.jaist.ac.jp/english/)<br>
+Machine Learning Engineer at [AIAIVN](https://www.aiaivn.com/en)<br>
+Software Engineer at [Engergy Solution](https://www.eng-sol.co.jp/)<br>
+IT Support Technician at [MWG](https://www.thegioididong.com/)<br>
+
 
 # 💻 Research & Professional Interests
 
@@ -22,9 +29,9 @@ I specialize in building scalable data pipelines and intelligent chatbot systems
 
 
 
-# 🌱 Research Motivation
+<!-- # 🌱 Research Motivation
 
-I am always eager to explore emerging advancements in **Artificial Intelligence, Deep Learning, and Big Data**. Whether experimenting with state-of-the-art machine learning frameworks or implementing cutting-edge cloud solutions, I thrive on innovation, continuous learning, and impactful research.
+I am always eager to explore emerging advancements in **Artificial Intelligence, Deep Learning, and Big Data**. Whether experimenting with state-of-the-art machine learning frameworks or implementing cutting-edge cloud solutions, I thrive on innovation, continuous learning, and impactful research. -->
 
 <!-- ---
 

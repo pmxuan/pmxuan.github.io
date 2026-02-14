@@ -4,8 +4,11 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--global-border-color);
+  box-shadow: var(--shadow-sm);
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -32,6 +35,11 @@
 
     a {
       text-decoration: none;
+      transition: color 0.3s ease;
+      
+      &:hover {
+        color: var(--global-masthead-link-color-hover);
+      }
     }
   }
 }
@@ -51,9 +59,40 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  position: relative;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    font-size: 1.1em;
+    
+    a {
+      color: var(--accent-color);
+      
+      &:hover {
+        color: var(--global-link-color-hover);
+      }
+    }
+  }
+  
+  a {
+    padding: 0.5em 1em;
+    display: inline-block;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 1em;
+      right: 1em;
+      height: 2px;
+      background: var(--accent-color);
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    
+    &:hover:after {
+      transform: scaleX(1);
+    }
   }
 }

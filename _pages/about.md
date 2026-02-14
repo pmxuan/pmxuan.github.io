@@ -1,12 +1,14 @@
 ---
 layout: centered
 permalink: /
-title: ""
+# title: "Hey there! 👋"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# 🎓 Education
 
 I graduated from the **University of Science, VNU-HCM (HCMUS)** with a major in **Data Science**, under the supervision of Prof. [Bac Le](https://scholar.google.com/citations?user=UA_83MUAAAAJ&hl=vi) and Assoc. Prof. [Tung Kieu](https://scholar.google.com/citations?user=9luXdEIAAAAJ&hl=en).
 

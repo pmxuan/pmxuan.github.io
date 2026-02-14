@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 # 🎓 Education
-I graduated from the **University of Science, VNU-HCM (HCMUS)** with a major in **Data Science**, under the supervision of Prof. [Bac Le](https://scholar.google.com/citations?user=UA_83MUAAAAJ&hl=vi) and Assoc. Prof. [Tung Kieu](https://scholar.google.com/citations?user=9luXdEIAAAAJ&hl=en).
+I graduated from the **University of Science, VNU-HCM (HCMUS)** with a major in **Data Science**, under the supervision of Prof. [Bac Le](https://scholar.google.com/citations?user=UA_83MUAAAAJ&hl=vi) and Asst. Prof. [Tung Kieu](https://scholar.google.com/citations?user=9luXdEIAAAAJ&hl=en).
 
 Currently, I am pursuing a **Master’s degree** at the **Japan Advanced Institute of Science and Technology (JAIST)** under the supervision of Prof. [Masashi Unoki](https://scholar.google.co.jp/citations?user=nXje6ywAAAAJ&hl=ja).
 

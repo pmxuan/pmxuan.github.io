@@ -1,0 +1,4 @@
+// Override Font Awesome font-display from 'block' (invisible until loaded)
+// to 'swap' (show fallback immediately, swap when font is ready).
+// This prevents icons from being invisible on first page load.
+$fa-font-display: swap;

@@ -39,7 +39,7 @@ Information Technology but also provides me with the opportunity to actively con
 
 ---
 
-# Skills
+<!-- # Skills
 - **Languages**: English, Vietnamese
 - **Programming Languages**: Python, SQL, HTML, CSS, JavaScript
 - **Frameworks and Libraries**:  
@@ -58,16 +58,16 @@ Information Technology but also provides me with the opportunity to actively con
 - **Analytic Thinking, Data Science, and Data Mining** (Coursera – Mar 2023)
 
 ### Scholarship:
-- **Encouragement Study Scholarship of University of Science** (1st-year, 2nd-year, and 4th-year)
+- **Encouragement Study Scholarship of University of Science** (1st-year, 2nd-year, and 4th-year) -->
 
 
-<!-- Publications
+Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}

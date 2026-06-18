@@ -1,14 +1,17 @@
 ---
-layout: archive
-title: "Project"
+layout: academic-home
+title: "Company Projects"
 permalink: /project/
 author_profile: false
+hide_footer: true
 ---
 
 {% include base_path %}
 
+<div class="academic-home">
+  <h1 class="ac-page-title">Company Projects</h1>
 
-{% for post in site.project %}
-  {% include archive-single.html %}
-{% endfor %}
-
+  {% for post in site.project %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>

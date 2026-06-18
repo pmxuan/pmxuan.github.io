@@ -1,0 +1,584 @@
+/* ==========================================================================
+   ACADEMIC HOMEPAGE LAYOUT
+   ========================================================================== */
+
+$ac-heading-color: #1a3a5c;
+$ac-accent:        #2a6ebb;
+$ac-accent-hover:  #1a4e99;
+$ac-news-date:     #2a6ebb;
+$ac-badge-border:  #b0c4de;
+$ac-badge-bg:      #f0f5fb;
+
+/* ---- Wrapper ---- */
+.academic-home-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2.5em 1.75em 5em;
+  font-family: $sans-serif;
+  font-size: 1.05em;
+}
+
+/* Override absolute-footer on all academic-home pages so footer follows content */
+html:has(.academic-home-wrapper) {
+  position: static;
+  min-height: unset;
+}
+body:has(.academic-home-wrapper) {
+  padding-bottom: 0;
+}
+html:has(.academic-home-wrapper) .page__footer {
+  position: static;
+  margin-top: 4em;
+}
+
+/* ==========================================================================
+   HEADER: Photo + Info
+   ========================================================================== */
+
+.ac-header {
+  display: flex;
+  gap: 3em;
+  align-items: flex-start;
+  margin-bottom: 2.75em;
+  padding-bottom: 2.25em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  @media (max-width: 620px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5em;
+  }
+}
+
+.ac-photo {
+  flex-shrink: 0;
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center top;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.14);
+    border: 3px solid #e8eef5;
+    display: block;
+  }
+
+  @media (max-width: 620px) {
+    img { width: 170px; height: 170px; }
+  }
+}
+
+.ac-info {
+  flex: 1;
+  min-width: 0;
+  padding-top: 0.3em;
+
+  .ac-name {
+    font-size: 2.25em;
+    font-weight: 700;
+    color: var(--global-text-color);
+    margin: 0 0 0.2em;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+
+  .ac-affiliation {
+    font-size: 1em;
+    color: var(--global-text-color);
+    margin: 0 0 0.9em;
+    line-height: 1.55;
+
+    a {
+      color: $ac-accent;
+      text-decoration: none;
+      font-weight: 600;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  /* Social links: icon + label, space-separated, no pipe */
+  .ac-social-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.2em 1.4em;
+    margin: 0 0 0.85em;
+    list-style: none;
+    padding: 0;
+
+    li { margin: 0; }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.38em;
+      color: $ac-accent;
+      text-decoration: none;
+      font-size: 0.97em;
+      font-weight: 500;
+      transition: color 0.18s;
+
+      i, .ai {
+        font-size: 1.1em;
+        line-height: 1;
+      }
+
+      &:hover { color: $ac-accent-hover; }
+    }
+  }
+
+  /* Divider line between social links and email */
+  .ac-contact-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--global-border-color);
+    margin: 0.5em 0 0.8em;
+  }
+
+  .ac-email {
+    font-size: 0.93em;
+    color: var(--global-text-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3em 1.5em;
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.38em;
+      i { color: $ac-accent; font-size: 1em; }
+    }
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+      &:hover { color: $ac-accent; text-decoration: underline; }
+    }
+  }
+}
+
+/* ==========================================================================
+   TWO-COLUMN: About Me + Recent News
+   ========================================================================== */
+
+.ac-two-col {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2.75em;
+  margin-bottom: 2.75em;
+  align-items: start;
+
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+}
+
+/* Section heading */
+.ac-section-heading {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: $ac-heading-color;
+  margin: 0 0 0.8em;
+  padding-bottom: 0.35em;
+  border-bottom: 2.5px solid $ac-accent;
+}
+
+/* About Me */
+.ac-about {
+  p {
+    font-size: 1em;
+    line-height: 1.8;
+    color: var(--global-text-color);
+    margin: 0 0 0.9em;
+
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+/* Recent News */
+.ac-news {
+  .ac-news-list {
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    max-height: 330px;
+    overflow-y: auto;
+    background: #fafcff;
+  }
+
+  .ac-news-item {
+    padding: 0.7em 0;
+    font-size: 0.92em;
+    line-height: 1.55;
+    border-bottom: 1px solid #eef1f6;
+
+    &:last-child { border-bottom: none; }
+
+    .ac-news-date {
+      font-weight: 700;
+      color: $ac-news-date;
+      margin-right: 0.35em;
+    }
+
+    a {
+      color: $ac-accent;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+
+    strong { font-weight: 700; }
+  }
+}
+
+/* ==========================================================================
+   FULL-WIDTH SECTIONS
+   ========================================================================== */
+
+.ac-section {
+  margin-bottom: 2.75em;
+
+  p {
+    font-size: 1em;
+    line-height: 1.8;
+    color: var(--global-text-color);
+    margin: 0 0 0.9em;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.ac-services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    font-size: 1em;
+    line-height: 1.65;
+    margin-bottom: 0.45em;
+    color: var(--global-text-color);
+    strong { color: var(--global-text-color); font-weight: 700; }
+  }
+}
+
+/* ==========================================================================
+   EXPERIENCE & PROJECT ENTRIES
+   ========================================================================== */
+
+/* Experience entry heading: Company - Role (dates) */
+.ac-exp-entry {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+}
+
+.ac-exp-heading {
+  font-size: 1.05em;
+  font-weight: 700;
+  color: $ac-accent;
+  margin: 0 0 0.75em;
+  line-height: 1.45;
+
+  em { font-style: italic; color: $ac-accent; }
+  .ac-exp-dates {
+    font-weight: 600;
+    color: var(--global-text-color);
+    font-style: normal;
+  }
+}
+
+.ac-exp-bullets {
+  margin: 0;
+  padding-left: 1.4em;
+  list-style: disc;
+
+  li {
+    font-size: 1em;
+    line-height: 1.75;
+    color: var(--global-text-color);
+    margin-bottom: 0.35em;
+
+    &:last-child { margin-bottom: 0; }
+
+    strong { font-weight: 700; }
+  }
+}
+
+/* Project cards */
+.ac-project-card {
+  display: flex;
+  gap: 1.75em;
+  margin-bottom: 2.25em;
+  padding-bottom: 2.25em;
+  border-bottom: 1px solid var(--global-border-color);
+  align-items: flex-start;
+
+  &:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+  @media (max-width: 620px) {
+    flex-direction: column;
+    gap: 1em;
+  }
+}
+
+.ac-project-thumb {
+  width: 220px;
+  flex-shrink: 0;
+
+  img {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #dde4ef;
+    display: block;
+  }
+
+  @media (max-width: 620px) {
+    width: 100%;
+    img { height: 170px; }
+  }
+}
+
+.ac-project-meta {
+  flex: 1;
+  min-width: 0;
+
+  .ac-project-title {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: $ac-heading-color;
+    line-height: 1.4;
+    margin: 0 0 0.5em;
+
+    a { color: $ac-heading-color; text-decoration: none;
+      &:hover { color: $ac-accent; text-decoration: underline; }
+    }
+  }
+
+  .ac-project-desc {
+    font-size: 0.95em;
+    line-height: 1.7;
+    color: var(--global-text-color);
+    margin: 0 0 0.6em;
+  }
+
+  .ac-project-tech {
+    font-size: 0.875em;
+    color: var(--global-text-color-light);
+    margin: 0 0 0.6em;
+
+    strong { color: var(--global-text-color); font-weight: 600; }
+  }
+
+  .ac-project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    margin-top: 0.5em;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3em;
+      padding: 0.25em 0.8em;
+      border: 1px solid $ac-badge-border;
+      border-radius: 50px;
+      font-size: 0.82em;
+      color: $ac-accent;
+      background: $ac-badge-bg;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.18s ease;
+
+      i { font-size: 0.95em; }
+      &:hover { background: $ac-accent; color: #fff; border-color: $ac-accent; }
+    }
+  }
+}
+
+/* ==========================================================================
+   PUBLICATIONS PAGE SPECIFIC
+   ========================================================================== */
+
+/* Page title (used on /publications/ page) */
+.ac-page-title {
+  font-size: 2em;
+  font-weight: 700;
+  color: $ac-heading-color;
+  margin: 0 0 0.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 2.5px solid $ac-accent;
+}
+
+.ac-pub-scholar-note {
+  font-size: 1em;
+  color: var(--global-text-color);
+  margin: 0 0 1.25em;
+
+  a { color: $ac-accent; text-decoration: none; font-weight: 500;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.ac-pub-equal {
+  font-size: 0.95em;
+  color: $ac-heading-color;
+  margin: 0 0 0.5em;
+}
+
+/* arXiv chevron icon (≫ style) */
+.ac-icon-arxiv {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1;
+  margin-right: 1px;
+}
+
+/* ==========================================================================
+   PUBLICATIONS (shared between homepage + /publications/ page)
+   ========================================================================== */
+
+.ac-pub-filter {
+  margin-bottom: 1.25em;
+  font-size: 0.95em;
+
+  label {
+    color: var(--global-text-color);
+    margin-right: 0.5em;
+    font-weight: 500;
+  }
+
+  select {
+    padding: 0.3em 0.75em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 5px;
+    font-size: 0.95em;
+    color: var(--global-text-color);
+    background: var(--global-bg-color);
+    cursor: pointer;
+    &:focus { outline: 2px solid $ac-accent; }
+  }
+}
+
+.ac-pub-note {
+  font-size: 0.9em;
+  color: var(--global-text-color-light);
+  margin-bottom: 1em;
+
+  a { color: $ac-accent; }
+}
+
+.ac-year-header {
+  font-size: 1.45em;
+  font-weight: 700;
+  color: $ac-heading-color;
+  margin: 1.75em 0 0.6em;
+}
+
+.ac-pub-item {
+  display: flex;
+  gap: 1.75em;
+  padding: 1.5em 0;
+  border-bottom: 1px solid var(--global-border-color);
+  align-items: flex-start;
+
+  &:last-of-type { border-bottom: none; }
+
+  @media (max-width: 620px) {
+    flex-direction: column;
+    gap: 0.75em;
+  }
+}
+
+.ac-pub-thumb {
+  width: 240px;
+  flex-shrink: 0;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #dde4ef;
+    display: block;
+  }
+
+  @media (max-width: 620px) {
+    width: 100%;
+  }
+}
+
+/* Larger thumbnails on the dedicated /publications/ page */
+.ac-publications-page .ac-pub-thumb {
+  width: 270px;
+}
+
+.ac-pub-meta {
+  flex: 1;
+  min-width: 0;
+
+  .ac-pub-title {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: $ac-heading-color;
+    line-height: 1.45;
+    margin: 0 0 0.4em;
+
+    a {
+      color: $ac-heading-color;
+      text-decoration: none;
+      &:hover { color: $ac-accent; text-decoration: underline; }
+    }
+  }
+
+  .ac-pub-authors {
+    font-size: 0.92em;
+    color: var(--global-text-color-light);
+    margin: 0 0 0.3em;
+    line-height: 1.55;
+
+    strong { color: var(--global-text-color); font-weight: 700; }
+  }
+
+  .ac-pub-venue {
+    font-size: 0.92em;
+    font-style: italic;
+    color: var(--global-text-color);
+    margin: 0 0 0.65em;
+  }
+
+  .ac-pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45em;
+    margin-top: 0.55em;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.32em;
+      padding: 0.25em 0.8em;
+      border: 1px solid $ac-badge-border;
+      border-radius: 50px;
+      font-size: 0.82em;
+      color: $ac-accent;
+      background: $ac-badge-bg;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.18s ease;
+
+      i, .ai { font-size: 0.95em; }
+
+      &:hover {
+        background: $ac-accent;
+        color: #fff;
+        border-color: $ac-accent;
+      }
+    }
+  }
+}

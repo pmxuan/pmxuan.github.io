@@ -28,7 +28,7 @@ author:
   location         : "Ishikawa, Japan"
   employer         : "Japan Advanced Institute of Science and Technology"
   uri              : # URL
-  email            : "pmxuan.work@gmail.com" 
+  email            : "xuan.phan@jaist.ac.jp" 
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
@@ -268,10 +268,11 @@ defaults:
       path: ""
       type: project
     values:
-      layout: single
+      layout: academic-home
       author_profile: false
-      share: true
-      comment: true
+      share: false
+      comment: false
+      hide_footer: true
   # _talks
   - scope:
       path: ""

@@ -1,39 +1,75 @@
 ---
-layout: archive
+layout: academic-home
 title: "Professional Experience"
 permalink: /experience/
 author_profile: false
+hide_footer: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="academic-home">
 
-<h2 style="color:#1f77b4;">Japan Advanced Institute of Science and Technology - <em>Laboratory Researcher - Full-time</em> (10/2025 - Present)</h2>
-  - Conducting research on **Deepfake Speech Detection**, with a focus on developing robust and generalizable detection models against synthetic and manipulated audio.
-  - Investigating advanced techniques in signal processing and deep learning to improve detection accuracy under real-world conditions. 
+  <h1 class="ac-page-title">Professional Experience</h1>
 
-<h2 style="color:#1f77b4;">AIAIVN - <em>Machine Learning Engineer - Full-time</em> (08/2024 - Present)</h2>
-  - Contributed to the design of databases, system architecture, build agents and documentation for **SmartChat: AI Chatbot for Tourism & Education** and the **InsightFund AI: Data Lakehouse & Chatbot for Investment Funds** projects.
-  - Implemented monitoring and logging systems to proactively detect and troubleshoot issues in production.
-  - Collaborated with developers to understand and implement system requirements.
-  - Contributed to building data warehouses through automated pipelines.
-  - Developed and maintained CI/CD pipelines for test and deployment automation.
-  - Managed and maintained system operations to ensure stability and scalability.
-  - Supported the deployment of applications to staging and production environments.
-   
----
+  <!-- ===================== JAIST ===================== -->
+  <div class="ac-exp-entry">
+    <div class="ac-exp-heading">
+      Japan Advanced Institute of Science and Technology &mdash;
+      <em>Laboratory Researcher &middot; Full-time</em>
+      <span class="ac-exp-dates">&ensp;(10/2025 &ndash; Present)</span>
+    </div>
+    <ul class="ac-exp-bullets">
+      <li>Conducting research on <strong>Deepfake Speech Detection</strong>, with a focus on developing robust and generalizable detection models against synthetic and manipulated audio.</li>
+      <li>Investigating advanced techniques in signal processing and deep learning to improve detection accuracy under real-world conditions.</li>
+    </ul>
+  </div>
 
-<h2 style="color:#1f77b4;">Energy Solutions  - <em>Software Engineer - Intern</em> (03/2024 - 06/2024)</h2>
-  - Participated in the design and development of the front-end interface, ensuring an intuitive user experience.
-  - Implemented new features and modified existing ones based on customer requirements, improving system flexibility and functionality.
-  - Developed and maintained SQL databases, ensuring efficient data storage and retrieval.
-  - Collaborated closely with cross-functional teams to integrate front-end and back-end systems seamlessly.
+  <!-- ===================== AIAIVN ===================== -->
+  <div class="ac-exp-entry">
+    <div class="ac-exp-heading">
+      AIAIVN &mdash;
+      <em>Machine Learning Engineer &middot; Full-time</em>
+      <span class="ac-exp-dates">&ensp;(08/2024 &ndash; Present)</span>
+    </div>
+    <ul class="ac-exp-bullets">
+      <li>Contributed to the design of databases, system architecture, build agents and documentation for <strong>SmartChat: AI Chatbot for Tourism &amp; Education</strong> and the <strong>InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds</strong> projects.</li>
+      <li>Implemented monitoring and logging systems to proactively detect and troubleshoot issues in production.</li>
+      <li>Collaborated with developers to understand and implement system requirements.</li>
+      <li>Contributed to building data warehouses through automated pipelines.</li>
+      <li>Developed and maintained CI/CD pipelines for test and deployment automation.</li>
+      <li>Managed and maintained system operations to ensure stability and scalability.</li>
+      <li>Supported the deployment of applications to staging and production environments.</li>
+    </ul>
+  </div>
 
----
+  <!-- ===================== Energy Solutions ===================== -->
+  <div class="ac-exp-entry">
+    <div class="ac-exp-heading">
+      Energy Solutions &mdash;
+      <em>Software Engineer &middot; Intern</em>
+      <span class="ac-exp-dates">&ensp;(03/2024 &ndash; 06/2024)</span>
+    </div>
+    <ul class="ac-exp-bullets">
+      <li>Participated in the design and development of the front-end interface, ensuring an intuitive user experience.</li>
+      <li>Implemented new features and modified existing ones based on customer requirements, improving system flexibility and functionality.</li>
+      <li>Developed and maintained SQL databases, ensuring efficient data storage and retrieval.</li>
+      <li>Collaborated closely with cross-functional teams to integrate front-end and back-end systems seamlessly.</li>
+    </ul>
+  </div>
 
+  <!-- ===================== MWG ===================== -->
+  <div class="ac-exp-entry">
+    <div class="ac-exp-heading">
+      Mobile World Investment Corporation (MWG) &mdash;
+      <em>IT Support Technician &middot; Part-time</em>
+      <span class="ac-exp-dates">&ensp;(10/2023 &ndash; 12/2023)</span>
+    </div>
+    <ul class="ac-exp-bullets">
+      <li>Responded to support requests from users.</li>
+      <li>Provided guidance to users on how to use software, hardware, and other technology tools.</li>
+      <li>Resolved issues related to operating applications.</li>
+    </ul>
+  </div>
 
-<h2 style="color:#1f77b4;">Mobile World Investment Corporation (MWG) - <em>IT Support Technician - Part-time</em> (10/2023 - 12/2023)</h2>
-  - Respond to support requests from users.
-  - Provide guidance to users on how to use software, hardware, and other technology tools.
-  - Resolve issues related to operating applications.
+</div>

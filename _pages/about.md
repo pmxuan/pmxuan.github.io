@@ -77,22 +77,21 @@ redirect_from:
         <a href="https://www.jaist.ac.jp/english/" target="_blank">JAIST</a>,
         advised by Prof.
         <a href="https://scholar.google.co.jp/citations?user=nXje6ywAAAAJ&hl=ja" target="_blank">Masashi Unoki</a>.
-        I am broadly interested in <strong>Data Mining</strong> and <strong>Signal Processing</strong>
+        I am broadly interested in <strong>Data Mining</strong> and <strong>Speech Signal Processing</strong>
       </p>
 
       <p>
-        I earned my B.Cs. in Data Science from the
+        I earned my Bachelor’s degree in Information Technology from the
         <a href="https://hcmus.edu.vn/" target="_blank">University of Science, VNU-HCM (HCMUS)</a>
         (2020–2024), supervised by Prof.
         <a href="https://scholar.google.com/citations?user=UA_83MUAAAAJ&hl=vi" target="_blank">Bac Le</a>
-        and Asst. Prof.
+        and Dr.
         <a href="https://scholar.google.com/citations?user=9luXdEIAAAAJ&hl=en" target="_blank">Tung Kieu</a>.
       </p>
 
       <p>
         Previously, I worked as a Machine Learning Engineer at
-        <a href="https://www.aiaivn.com" target="_blank">AIAIVN</a>
-        (2024-Present), a Software Engineer at
+        <a href="https://www.aiaivn.com" target="_blank">AIAIVN</a>, a Software Engineer at
         <a href="https://www.eng-sol.co.jp/" target="_blank">Energy Solution</a>,
         and an IT Support Technician at
         <a href="https://www.thegioididong.com/" target="_blank">MWG</a>.
@@ -115,7 +114,7 @@ redirect_from:
         </div>
         <div class="ac-news-item">
           <span class="ac-news-date">Oct 2024:</span>
-          Graduated with a B.Cs. in Data Science from <a href="https://hcmus.edu.vn/" target="_blank">University of Science, VNU-HCM (HCMUS)</a>.
+          Graduated with a Bachelor’s degree in Information Technology from <a href="https://hcmus.edu.vn/" target="_blank">University of Science, VNU-HCM (HCMUS)</a>.
         </div>
         <div class="ac-news-item">
           <span class="ac-news-date">Aug 2024:</span>

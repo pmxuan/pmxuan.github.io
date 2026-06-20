@@ -72,13 +72,13 @@ redirect_from:
     <div class="ac-about">
       <h2 class="ac-section-heading">About Me</h2>
 
-      <p>
-        Hi! I'm Xuan, a Master's student at
-        <a href="https://www.jaist.ac.jp/english/" target="_blank">JAIST</a>,
-        advised by Prof.
-        <a href="https://scholar.google.co.jp/citations?user=nXje6ywAAAAJ&hl=ja" target="_blank">Masashi Unoki</a>.
-        I am broadly interested in <strong>Data Mining</strong> and <strong>Speech Signal Processing</strong>
-      </p>
+    <p>
+      Hi! I'm Xuan, a Master's student at
+      <a href="https://www.jaist.ac.jp/english/" target="_blank">JAIST</a>,
+      supervised by Prof.
+      <a href="https://scholar.google.com/citations?user=nXje6ywAAAAJ&hl=en" target="_blank">Masashi Unoki</a>,
+      co-supervised by Prof. <a href="https://scholar.google.com/citations?user=IyZBSrEAAAAJ&hl=en" target="_blank">Shogo Okada</a>, and advised by Prof. <a href="https://scholar.google.com/citations?user=vM9772wAAAAJ&hl=en" target="_blank">Minh Le Nguyen</a> for my minor research.
+    </p>
 
       <p>
         I earned my Bachelor’s degree in Information Technology from the

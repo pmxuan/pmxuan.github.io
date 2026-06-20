@@ -16,22 +16,28 @@ redirect_from:
   <div class="ac-exp-entry">
     <div class="ac-exp-heading">
       Japan Advanced Institute of Science and Technology &mdash;
-      <em>Laboratory Researcher &middot; Full-time</em>
+      <em>Research Assistant &middot; Full-time</em>
       <span class="ac-exp-dates">&ensp;(10/2025 &ndash; Present)</span>
     </div>
     <ul class="ac-exp-bullets">
-      <li>Conducting research on <strong>Deepfake Speech Detection</strong>, with a focus on developing robust and generalizable detection models against synthetic and manipulated audio.</li>
-      <li>Investigating advanced techniques in signal processing and deep learning to improve detection accuracy under real-world conditions.</li>
+      <li>
+        Main research: <strong>Deepfake Speech Detection</strong>, focusing on detecting synthetic and manipulated speech.
+      </li>
+      <li>
+        Minor research: <strong>Autonomous Driving</strong>, focusing on the Visual Question Answering (VQA) task.
+      </li>
     </ul>
   </div>
 
   <!-- ===================== AIAIVN ===================== -->
   <div class="ac-exp-entry">
-    <div class="ac-exp-heading">
-      AIAIVN &mdash;
-      <em>Machine Learning Engineer &middot; Full-time</em>
-      <span class="ac-exp-dates">&ensp;(08/2024 &ndash; Present)</span>
-    </div>
+  <div class="ac-exp-heading">
+    AIAIVN &mdash;
+    <em>Machine Learning Engineer</em>
+    <span class="ac-exp-dates">
+      &ensp;(Full-time: 08/2024 &ndash; 10/2025; Part-time: 10/2025 &ndash; Present)
+    </span>
+  </div>
     <ul class="ac-exp-bullets">
       <li>Contributed to the design of databases, system architecture, build agents and documentation for <strong>SmartChat: AI Chatbot for Tourism &amp; Education</strong> and the <strong>InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds</strong> projects.</li>
       <li>Implemented monitoring and logging systems to proactively detect and troubleshoot issues in production.</li>

@@ -56,7 +56,7 @@ redirect_from:
       <div class="ac-email">
         <span>
           <i class="fas fa-envelope"></i>
-          <a href="mailto:pmxuan.work@gmail.com">pmxuan.work[at]gmail[dot]com | xuan.phan[at]jaist.ac[dot]jp</a>
+          <a href="mailto:pmxuan.work@gmail.com,xuan.phan@jaist.ac.jp">pmxuan[dot]work[at]gmail[dot]com | xuan[dot]phan[at]jaist[dot]ac[dot]jp</a>
         </span>
       </div>
     </div>
@@ -132,15 +132,18 @@ redirect_from:
     <h2 class="ac-section-heading">Research Interests</h2>
 
     <p>
-      My research broadly centers on <strong>Data Mining</strong>, <strong>Signal Processing</strong>,
-      and <strong>Machine Learning</strong> — unified by a common goal: building scalable,
-      intelligent systems that can extract meaningful knowledge from complex, real-world data.
+      My research broadly centers on <strong>Data Mining</strong>, <strong>Graph Data</strong>,
+      <strong>Machine Learning</strong>, and <strong>Speech Signal Processing</strong>.
     </p>
+  </div>
 
+
+
+  <div class="ac-section">
+    <h2 class="ac-section-heading">Education</h2>
     <p>
-      I specialize in designing efficient data pipelines, intelligent chatbot architectures,
-      and developing practical ML solutions. I am particularly interested in time-series analysis,
-      acoustic signal processing, and knowledge graph construction from large-scale datasets.
+      <strong>M.Sc. in Information Science</strong>, Japan Advanced Institute of Science and Technology, Japan. <br>
+      <strong>B.Sc. in Information Technology</strong>, University of Science, Vietnam National University, Ho Chi Minh City, Vietnam.
     </p>
   </div>
 

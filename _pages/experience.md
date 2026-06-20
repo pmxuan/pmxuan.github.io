@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="academic-home">
 
-  <h1 class="ac-page-title">Professional Experience</h1>
+  <h1 class="ac-page-title">Experience</h1>
 
   <!-- ===================== JAIST ===================== -->
   <div class="ac-exp-entry">

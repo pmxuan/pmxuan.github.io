@@ -8,10 +8,10 @@ main:
   # - title: "Education"
   #   url: /education/
 
-  - title: "Professional Experience"
+  - title: "Work Experience"
     url: /experience/
 
-  - title: "Company Projects"
+  - title: "Projects"
     url: /project/
 
   # - title: "Skills"

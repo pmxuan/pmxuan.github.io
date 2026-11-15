@@ -35,7 +35,7 @@ redirect_from:
     AIAIVN &mdash;
     <em>Machine Learning Engineer</em>
     <span class="ac-exp-dates">
-      &ensp;(Full-time: 08/2024 &ndash; 10/2025; Part-time: 10/2025 &ndash; Present)
+      &ensp;(Full-time: 08/2024 &ndash; 10/2025; Part-time: 10/2025 &ndash; 10/2026)
     </span>
   </div>
     <ul class="ac-exp-bullets">

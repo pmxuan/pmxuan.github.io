@@ -11,8 +11,8 @@ main:
   - title: "Work Experience"
     url: /experience/
 
-  - title: "Projects"
-    url: /project/
+  # - title: "Projects"
+  #   url: /project/
 
   # - title: "Skills"
   #   url: /skill/

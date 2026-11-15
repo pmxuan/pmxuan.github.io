@@ -132,8 +132,8 @@ redirect_from:
     <h2 class="ac-section-heading">Research Interests</h2>
 
     <p>
-      My research broadly centers on <strong>Data Mining</strong>, <strong>Graph Data</strong>,
-      <strong>Machine Learning</strong>, and <strong>Speech Signal Processing</strong>.
+      My research broadly centers on <strong>Data Mining</strong>, <strong>Explainable AI</strong>, 
+      <strong>Deep Learning</strong>, and <strong>Deepfake Speech Detection</strong>.
     </p>
   </div>
 
@@ -147,4 +147,12 @@ redirect_from:
     </p>
   </div>
 
-  
+  <div class="ac-section" id="experience" data-academic-section>
+    <h2 class="ac-section-heading">Experience</h2>
+    <p>
+      <strong>Research Assistant</strong>, Japan Advanced Institute of Science and Technology, Japan <br>
+      <strong>Machine Learning Engineer</strong>, AIAIVN, Vietnam <br>
+      <strong>Software Engineer</strong>, Energy Solutions (member of Katsura Group), Vietnam <br>
+      <strong>IT Support Technician</strong>, Mobile World Investment Corporation (MWG), Vietnam <br>
+    </p>
+  </div>
